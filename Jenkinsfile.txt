@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Get_Playbook') {
+        stage('Git_Playbook') {
             steps {
                 git 'https://github.com/shabanajoymuz/ansiblerepo.git'
             }
